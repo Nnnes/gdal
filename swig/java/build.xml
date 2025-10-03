@@ -32,6 +32,9 @@
 			<fileset dir="${build_dir}/build/classes">
 				<include name="**/*.class"/>
 			</fileset>
+			<manifest>
+				<attribute name="Automatic-Module-Name" value="org.gdal"/>
+			</manifest>
 		</jar>
 	</target>
 
